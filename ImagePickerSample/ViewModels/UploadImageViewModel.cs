@@ -64,7 +64,7 @@ namespace ImagePickerSample.ViewModels
 
             var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
             {
-                Directory = "Sapplier App",
+                Directory = "Images Folder",
                 SaveToAlbum = true,
                 PhotoSize = PhotoSize.MaxWidthHeight,
                 MaxWidthHeight = 400,
