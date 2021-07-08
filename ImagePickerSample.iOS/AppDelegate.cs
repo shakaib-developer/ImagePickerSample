@@ -13,6 +13,8 @@ namespace ImagePickerSample.iOS
     [Register("AppDelegate")]
     public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
     {
+        App mainForms;
+
         //
         // This method is invoked when the application has loaded and is ready to run. In this 
         // method you should instantiate the window, load the UI into it and then make the window
@@ -23,9 +25,20 @@ namespace ImagePickerSample.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+
+            mainForms = new App();
+
+            LoadApplication(mainForms);
 
             return base.FinishedLaunching(app, options);
+        }
+
+        public override bool OpenUrl(UIApplication app, NSUrl url, NSDictionary options)
+        {
+            Console.WriteLine("OpenUrl Func => url = " + url.Path);
+            //mainForms.DisplayThePDF(url.Path);
+
+            return true;
         }
     }
 }

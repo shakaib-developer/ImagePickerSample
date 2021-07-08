@@ -14,6 +14,11 @@ namespace ImagePickerSample
             MainPage = new NavigationPage(new UploadImagePage());
         }
 
+        public void DisplayThePDF(string url)
+        {
+            MainPage = new NavigationPage(new UploadImagePage(url));
+        }
+
         protected override void OnStart()
         {
         }

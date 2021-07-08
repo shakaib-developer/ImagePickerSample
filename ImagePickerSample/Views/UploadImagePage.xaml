@@ -10,6 +10,7 @@
             <AbsoluteLayout>
 
                 <StackLayout Grid.Row="0" Padding="20" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+                    <Image Source="{Binding ImagePath}" Aspect="AspectFit" HeightRequest="100" WidthRequest="100"/>
                     <Button Text="Image" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Command="{Binding ChangeDpCommand}"/>
                 </StackLayout>
 

@@ -40,5 +40,16 @@
 	<string>This app needs access to photos.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>This app needs access to the photo gallery.</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>CFBundleTypeName</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>UTType.Image</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

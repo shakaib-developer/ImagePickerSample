@@ -13,5 +13,16 @@ namespace ImagePickerSample.Views
 
             BindingContext = new UploadImageViewModel(Navigation);
         }
+
+        public UploadImagePage(string url)
+        {
+            InitializeComponent();
+
+            UploadImageViewModel vm = new UploadImageViewModel(Navigation);
+
+            vm.ImagePath = url;
+
+            BindingContext = vm;
+        }
     }
 }
