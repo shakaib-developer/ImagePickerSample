@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagePickerSample.iOS", "Im
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagePickerSample", "ImagePickerSample\ImagePickerSample.csproj", "{C871C938-40D7-4019-BDC6-32D492BA0C94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageShareExtensionSample", "ImageShareExtensionSample\ImageShareExtensionSample.csproj", "{988F3502-9825-4D6E-AFBF-139B17C0FB55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{C871C938-40D7-4019-BDC6-32D492BA0C94}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{C871C938-40D7-4019-BDC6-32D492BA0C94}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{C871C938-40D7-4019-BDC6-32D492BA0C94}.Release|iPhone.Build.0 = Release|Any CPU
+		{988F3502-9825-4D6E-AFBF-139B17C0FB55}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{988F3502-9825-4D6E-AFBF-139B17C0FB55}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{988F3502-9825-4D6E-AFBF-139B17C0FB55}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{988F3502-9825-4D6E-AFBF-139B17C0FB55}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{988F3502-9825-4D6E-AFBF-139B17C0FB55}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{988F3502-9825-4D6E-AFBF-139B17C0FB55}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{988F3502-9825-4D6E-AFBF-139B17C0FB55}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{988F3502-9825-4D6E-AFBF-139B17C0FB55}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{988F3502-9825-4D6E-AFBF-139B17C0FB55}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{988F3502-9825-4D6E-AFBF-139B17C0FB55}.Debug|iPhone.Build.0 = Debug|iPhone
+		{988F3502-9825-4D6E-AFBF-139B17C0FB55}.Release|iPhone.ActiveCfg = Release|iPhone
+		{988F3502-9825-4D6E-AFBF-139B17C0FB55}.Release|iPhone.Build.0 = Release|iPhone
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

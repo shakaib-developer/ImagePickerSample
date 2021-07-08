@@ -144,5 +144,10 @@
       <Project>{C871C938-40D7-4019-BDC6-32D492BA0C94}</Project>
       <Name>ImagePickerSample</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ImageShareExtensionSample\ImageShareExtensionSample.csproj">
+      <IsAppExtension>true</IsAppExtension>
+      <Project>{988F3502-9825-4D6E-AFBF-139B17C0FB55}</Project>
+      <Name>ImageShareExtensionSample</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
